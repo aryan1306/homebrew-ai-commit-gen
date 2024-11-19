@@ -5,20 +5,20 @@
 class AiCommitGen < Formula
   desc "AI-powered commit message generator"
   homepage "https://github.com/aryan1306/ai-commit-gen"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     on_intel do
-      url "https://github.com/aryan1306/ai-commit-gen/releases/download/v0.1.5/ai-commit-gen_Darwin_x86_64.tar.gz"
-      sha256 "26828c87c6c24656fb2172030c67db13723bd8522cfbe4508f7a350f58844231"
+      url "https://github.com/aryan1306/ai-commit-gen/releases/download/v0.1.6/ai-commit-gen_Darwin_x86_64.tar.gz"
+      sha256 "eccefd4acabe73cdf0259eb9ba4207cb63e45646a543be63e1b0ce75b4fafbac"
 
       def install
         bin.install "ai-commit-gen"
       end
     end
     on_arm do
-      url "https://github.com/aryan1306/ai-commit-gen/releases/download/v0.1.5/ai-commit-gen_Darwin_arm64.tar.gz"
-      sha256 "fdea9d146433623ad93b20ca433c26065bd5688944cd37d8b93b9a4b0752f6cd"
+      url "https://github.com/aryan1306/ai-commit-gen/releases/download/v0.1.6/ai-commit-gen_Darwin_arm64.tar.gz"
+      sha256 "b73c52e8ff40793197c1b32ce8a4a9e5253e10b3e2dd41e6dbe5895d25062890"
 
       def install
         bin.install "ai-commit-gen"
@@ -29,8 +29,8 @@ class AiCommitGen < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/aryan1306/ai-commit-gen/releases/download/v0.1.5/ai-commit-gen_Linux_x86_64.tar.gz"
-        sha256 "d16f5b0f8aaa0a407926b85bbf77bb868c1a70ca40dbb3b6024617863fb07e01"
+        url "https://github.com/aryan1306/ai-commit-gen/releases/download/v0.1.6/ai-commit-gen_Linux_x86_64.tar.gz"
+        sha256 "51cc5e3330ee96daa9d29473f6607e8e5d587736bebc4b528f016afae9b5cf3d"
 
         def install
           bin.install "ai-commit-gen"
@@ -39,8 +39,8 @@ class AiCommitGen < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/aryan1306/ai-commit-gen/releases/download/v0.1.5/ai-commit-gen_Linux_arm64.tar.gz"
-        sha256 "c270d2d82f5f1a3642238481d7e27315740015e451144afbe89f88c809b51beb"
+        url "https://github.com/aryan1306/ai-commit-gen/releases/download/v0.1.6/ai-commit-gen_Linux_arm64.tar.gz"
+        sha256 "2ed1eac48126848579fee8b84b9c5322d768ecc7484e7b94f5805c7e125a93ba"
 
         def install
           bin.install "ai-commit-gen"
